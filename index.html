@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+
+    <div class = "main-container">
+        <div class = "calculator">
+          <div class = "display-container">
+            <input class = "display" readonly type = "text" value ="0">
+          </div>
+          <div class = "buttons-container">
+            <button class = "top-buttons js-clear">C</button>
+            <button class = "top-buttons">+/-</button>
+            <button class = "top-buttons">%</button>
+            <button class = "operator js-button" data-type = "operator" data-action = "divide" data-previous = "operator">&divide;</button>
+            <button class = "numbers js-button" data-type = "number">7</button>
+            <button class = "numbers js-button" data-type = "number">8</button>
+            <button class = "numbers js-button" data-type = "number">9</button>
+            <button class = "operator js-button" data-type = "operator" data-action = "multiply" data-previous = "operator">&times;</button>
+            <button class = "numbers js-button" data-type = "number">4</button>
+            <button class = "numbers js-button" data-type = "number">5</button>
+            <button class = "numbers js-button" data-type = "number">6</button>
+            <button class = "operator js-button" data-type = "operator" data-action = "minus" data-previous = "operator">&minus;</button>
+            <button class = "numbers js-button" data-type = "number">1</button>
+            <button class = "numbers js-button" data-type = "number">2</button>
+            <button class = "numbers js-button" data-type = "number">3</button>
+            <button class = "operator js-button" data-type = "operator" data-action = "plus" data-previous = "operator">&plus;</button>
+            <button class = "numbers js-button"></button>
+            <button class = "numbers js-button" data-type = "number">0</button>
+            <button class = "numbers js-button decimal" data-type = "number" data-action = "decimal">.</button>
+            <button class = "operator js-button" data-action = "calculate">&equals;</button>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
